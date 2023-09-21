@@ -12,7 +12,7 @@ Increasing the training window from 3 to 6 months saw shows a small change in pr
 
 ## What impact resulted from increasing or decreasing either or both of the SMA windows?
 
-Decreasing both SMA windows, the short window from 4 to 2 and the long window from 100 to 50 kept the strategy returns aligned with the actual returns longer. Increasing the short window from 4 to 8 and the long from 100 to 200 performed worse on the graph with the strategy line dropping well below the actual returns. 
+Decreasing both SMA windows, the short window from 4 to 2 and the long window from 100 to 50 kept the strategy returns aligned with the actual returns longer. Increasing the short window from 4 to 8 and the long from 100 to 200 performed worse on the graph with the strategy line dropping well below the actual returns. Increasing the SMA short to 8 and the SMa long to 150 didn't have much effect on the precision, recall and accuracy.  
 
 
 
@@ -21,3 +21,5 @@ Decreasing both SMA windows, the short window from 4 to 2 and the long window fr
 The new Logistic Regression model performed better in all areas including the graph. the -1 precision is up from .43 to .88 with the new LR model. Also with 1 buy precision went from .56 with the first model to .65 with the new LR model. Recall jumped up from .04 precision and .96 recall to .14 and .99 respectivelly. The accuracy also jumped from .55 to .66 with the new LR  model. The graph saw some inital decline in performance around 2016 then noticable gains from 2019 to 2021 in comparision to the origional model. 
 
 ## Did this new model perform better or worse than your tuned trading algorithm?
+
+The new model performed better then my tuned trading algorithm. 
